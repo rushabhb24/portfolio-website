@@ -2,32 +2,32 @@
 This is a Portfolio Website for showcasing my personal and professional profile. It includes information about my skills, experience, projects, services, and ways to contact me. The website is fully responsive and designed to work seamlessly across various devices.
 
 # Table of Contents
-Introduction
-Features
-Technologies Used
-Setup and Installation
-Sections
-Contact Information
-License
+Introduction  
+Features  
+Technologies Used  
+Setup and Installation  
+Sections  
+Contact Information  
+License  
 
 # Introduction
 This website serves as an online portfolio to present my background, skills, projects, and contact details. It helps recruiters or visitors learn more about my capabilities and projects, and provides ways to connect with me on social media or through direct contact.
 
 # Features
-Responsive Design: Adjusts to different screen sizes.
-Interactive Sections: Includes animated tabs, hover effects, and interactive elements.
-Social Media Integration: Links to LinkedIn, GitHub, Instagram, and more.
-Downloadable Resume: Option to download a copy of my resume.
-Contact Form: Allows visitors to send messages directly from the website.
+Responsive Design: Adjusts to different screen sizes.  
+Interactive Sections: Includes animated tabs, hover effects, and interactive elements.  
+Social Media Integration: Links to LinkedIn, GitHub, Instagram, and more.  
+Downloadable Resume: Option to download a copy of my resume.  
+Contact Form: Allows visitors to send messages directly from the website.  
 
 # Technologies Used
-HTML5: Structure and content of the website.
-CSS3: Styling and layout (including responsive design techniques).
-JavaScript: Interactive features and animations.
-Typed.js: For typewriter effect on the homepage.
-Font Awesome: Icons used throughout the website.
-Google Fonts: Custom fonts for typography.
-Google sheet : Send messages directly from website.
+HTML5: Structure and content of the website.  
+CSS3: Styling and layout (including responsive design techniques).  
+JavaScript: Interactive features and animations.  
+Typed.js: For typewriter effect on the homepage.  
+Font Awesome: Icons used throughout the website.  
+Google Fonts: Custom fonts for typography.  
+Google sheet : Send messages directly from website.  
 
 # Setup and Installation
 Clone the repository: git clone https://github.com/your-username/portfolio-website.git
