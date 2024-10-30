@@ -60,7 +60,9 @@ Displays the copyright information and a closing note.
 For more details, you can reach out to me through the following:
 
 LinkedIn: https://www.linkedin.com/in/tushar-bansod-7382501ba
+
 GitHub: https://github.com/rushabhb24
+
 Email: tusharbansod5@gmail.com
 
 # License
