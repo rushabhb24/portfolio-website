@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <a href="#"><img src="logo3.png" alt="logo" class="logo"></a>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="navbar" id="sidemenu">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+
+            <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+        </nav>
+        <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's me </h3>
+            <h1>Tushar Sanju Bansod</h1>
+            <h3>And i'm a <span class="text"> </span></h3>
+            <p>
+                Computer Engineer with a strong foundation in Full-Stack Web Development and Software Development,
+                gained through internships and self-driven projects.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/tushar-bansod-7382501ba" style="--i:7"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/im_rushabh_b24/" style="--i:8"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/rushabhb24" style="--i:9"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/its.rushabh.b24" style="--i:10"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://wa.me/+918806229503" style="--i:11"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <button class="btn-box"><a href="#">More about me</a></button>
+        </div>
+        <div class="images">
+            <img src="shape2-removebg.png" alt="" class="shape">
+            <img src="myImage.png" alt="myImage" class="myimage">
+
+        </div>
+    </section>
+    <!-- --------------about--------------- -->
+    <section class="About">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="bg2.jpg" alt="myImage">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <br>
+                        <p>I am Tushar Sanju Bansod, a final year Computer Science Engineering student at
+                            Government College of Engineering, Jalgaon. With a Diploma in Computer Engineering, I have a
+                            strong foundation in Full-Stack Web Development and Software Development, gained through
+                            internships and self-driven projects. <br> <br>
+                            I am skilled in C, C++, SQL, HTML, CSS, JavaScript, Bootstrap, Node.js, ReactJS,
+                            Express.js, Linux. My projects include a Chat Bot AI using Python and a responsive
+                            To-Do App. I have interned at IT-Networkz Infosystem and Internpe, gaining hands-on
+                            experience in web development and C++ programming.
+                        </p>
+                        <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Full Stack Web Developer</span><br>Designing Responsive Website using
+                                    HTML,CSS,JavaScript,React.js, Node.js</li>
+                                <li><span>C++ Programmer</span><br>Develop some projects using c++</li>
+                                <li><span> SQL </span><br>Manage, retrieve, and manipulate data in application</li>
+                                <li><span>Linux</span><br>Managing administrative tasks, configuring networks, handling
+                                    files, etc using command line tools</li>
+                                <li><span>Bug Hunter</span><br>Finding vulnerabilities and bugs in the websites</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                                <li><span>2021</span><br>Web Developer at IT-NetworkZ Infosystem pvt ltd</li>
+                                <li><span>2023</span><br>C++ Programmer at Internpe</li>
+                                <li><span>2024</span><br>Front-End Deveoper at Unknown Institute</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>2018</span><br>10+2 from Art's, Commerce and Science College, Chandrapur<br>
+                                </li>
+                                <li><span>2021</span><br>Diploma Engineering from Government Polytechnic college,
+                                    Bramhapuri</li>
+                                <li><span>2025</span><br>B.Tech in Computer Engineering from Government College of
+                                    Engineering, Jalgaon</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------Service------------------------- -->
+    <section class="services">
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title"> My Service </h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>I create custom, responsive website tailored to your bussiness needs, ensuring an enaging and
+                            userfriendly experience.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>C++ Programmer</h2>
+                        <p>Writing high performance, efficient C++ code for application requiring speed and resourses
+                            management, including system software, game development, and complex algorithms.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bug"></i>
+                        <h2>Bug Hunter</h2>
+                        <p>Skilled in identifying and reporting security vulnerabilities in websites, application and
+                            system. <br> Helping organizations improve their security posture and protect users data.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------Portfolio------------------------- -->
+    <section class="Portfolio services">
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Work </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="todo_app_thumbnail.jpg" alt="Work Image 1">
+                        <div class="layer">
+                            <h3>Todo App</h3>
+                            <p>I am developing a to-do list website using HTML, CSS and JavaScript, allowing users to
+                                easily add new tasks to the list, mark tasks as completed, and delete them when
+                                finished. This userfriendly app will help in managing daily tasks more effectively. </p>
+                            </p>
+                            <a href="https://todo-app-kappa-seven-51.vercel.app/"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Simon-says-thumbnail.jpg" alt="Work Image 2">
+                        <div class="layer">
+                            <h3>Simon Says Game</h3>
+                            <p>I am creating a Simon Says game using HTML, CSS, and JavaScript. This interactive web
+                                application challenges players to follow a sequence of colors, enhancing
+                                their memory and reaction skills. The game features a responsive design, visual
+                                feedback, to create an engaging user experience. Players can test
+                                their limits as they progress through increasingly difficult levels, making it a fun and
+                                educational tool for all ages.
+                            </p>
+                            <a href="https://simon-says-game-iota.vercel.app/"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Spotify.jpg" alt="Work Image 3">
+                        <div class="layer">
+                            <h3>Spotify Clone</h3>
+                            <p>I am developing a front-end UI clone of Spotify using HTML, CSS, and JavaScript. This
+                                project focuses on creating a visually appealing and user-friendly interface that
+                                showcases a music library, album art, and song details, providing an engaging experience
+                                similar to the original platform, without backend functionality for playlist creation or
+                                music playback.
+                            </p>
+                            <a href="https://spotify-clone-34ll.vercel.app/"><i
+                                    class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/rushabhb24?tab=repositories" class="btn">See More</a>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------Contact us-------------------------- -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>tusharbansod5@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8806229503</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/its.rushabh.b24"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/+918806229503"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/im_rushabh_b24/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/tushar-bansod-7382501ba"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Tushar Bansod 2242201 Resume New.pdf" download class="btn" id="btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ Tushar Bansod. Made with <span>💗</span></p>
+        </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
