@@ -31,6 +31,7 @@ Google sheet : Send messages directly from website.
 
 # Setup and Installation
 Clone the repository: git clone https://github.com/your-username/portfolio-website.git
+
 Navigate to the project directory:
 cd portfolio-website
 Open the index.html file in a browser:
