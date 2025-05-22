@@ -294,6 +294,10 @@ body{
 .shape{
     padding-top: 50px;
     width: 580px;
+    position: absolute;
+    width: 100%;
+    /* z-index: 1; */
+    animation: float 6s ease-in-out infinite;
 }
 
 .images:hover .shape{
@@ -323,10 +327,21 @@ body{
     width: 350px;
     margin-left: 7rem;
     border-radius: 15px;
+    /* ---------- */
+    box-shadow: 0 10px 30px var(--shadow-color);
+    box-shadow: 0 5px 15px black;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-col-1 img:hover{
+    transform: scale(1.03);
 }
 
 .about-col-1{
     flex-basis: 35%;
+    /* ----------- */
+    flex: 1;
+    max-width: 400px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -525,7 +540,7 @@ body{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     transition: background 0.5s;
 }
 
@@ -610,7 +625,7 @@ form .btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #ffffff;
     font-weight: 300;
     margin-top: 20px;
 }
